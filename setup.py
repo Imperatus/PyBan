@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 
 setup(name='pyban-swift',
-      version='0.1',
+      version='0.1.1',
       description='IBAN validation tool in Python',
       long_description=long_description,
       long_description_content_type="text/markdown",
