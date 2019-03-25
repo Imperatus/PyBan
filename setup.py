@@ -4,10 +4,15 @@ requirements = [
     'pycountry'
 ]
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
-setup(name='pyban',
+
+setup(name='pyban-swift',
       version='0.1',
       description='IBAN validation tool in Python',
+      long_description=long_description,
+      long_description_content_type="text/markdown",
       url='https://github.com/Imperatus/PyBan',
       author='Jurgen Buisman',
       author_email='jurgen@labela.nl',
