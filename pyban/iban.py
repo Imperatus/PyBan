@@ -24,7 +24,7 @@ class IBAN:
         self.checksum_validation(self.iban)
 
     @property
-    def formatted_iban(self):
+    def formatted(self):
         return self.format_to_readable_iban(self.iban)
 
     @staticmethod
